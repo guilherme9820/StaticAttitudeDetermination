@@ -10,7 +10,7 @@ Created by Guilherme Henrique dos Santos at [SpaceLab](https://spacelab.ufsc.br/
 
 The need to estimate the orientation between frames of reference is crucial in spacecraft navigation. Robust algorithms for this type of problem have been built by following algebraic approaches, but data-driven solutions are becoming more appealing due to their stochastic nature. Hence, an approach based on convolutional neural networks in order to deal with measurement uncertainty in static attitude determination problems is proposed in this paper. PointNet models were trained with different datasets containing different numbers of observation vectors that were used to build attitude profile matrices, which were the inputs of the system. The uncertainty of measurements in the test scenarios was taken into consideration when choosing the best model. The proposed model, which used convolutional neural networks, proved to be less sensitive to higher noise than traditional algorithms, such as singular value decomposition (SVD), the q-method, the quaternion estimator (QUEST), and the second estimator of the optimal quaternion (ESOQ2). [MDPI](https://www.mdpi.com/1424-8220/21/19/6419)
 
-| ![PoseCNN](https://https://github.com/guilherme9820/StaticAttitudeDetermination/architecture.png?raw=true) |
+| ![B-Swish](architecture.png) |
 |:--:| 
 | The proposed architecture (*B-Swish*) |
 
